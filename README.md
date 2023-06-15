@@ -1,11 +1,11 @@
-About r-urlchecker
-==================
+About r-urlchecker-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-urlchecker-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/r-lib/urlchecker
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-urlchecker-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provide the URL checking tools available in R 4.1+ as a package for earlier versions of R. Also uses concurrent requests so can be much faster than the serial versions.
 
