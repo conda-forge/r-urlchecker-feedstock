@@ -1,6 +1,5 @@
 {% set version = '1.0.1' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-urlchecker
@@ -13,8 +12,7 @@ source:
   sha256: 62165ddbe1b748b58c71a50c8f07fdde6f3d19a7b39787b9fa2b4f9216250318
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
