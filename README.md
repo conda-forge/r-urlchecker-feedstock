@@ -9,6 +9,8 @@ Package license: GPL-3.0-only
 
 Summary: Provide the URL checking tools available in R 4.1+ as a package for earlier versions of R. Also uses concurrent requests so can be much faster than the serial versions.
 
+Documentation: https://urlchecker.r-lib.org/
+
 Current build status
 ====================
 
