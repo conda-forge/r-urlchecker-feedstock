@@ -1,4 +1,4 @@
-{% set version = '1.0.1' %}
+{% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/urlchecker_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/urlchecker/urlchecker_{{ version }}.tar.gz
-  sha256: 62165ddbe1b748b58c71a50c8f07fdde6f3d19a7b39787b9fa2b4f9216250318
+  sha256: 7a9e6137ded1c5be5d927e0ac91cb84a8922d37ece5757330f7f0d258e15378d
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -41,8 +41,7 @@ test:
 about:
   home: https://github.com/r-lib/urlchecker
   license: GPL-3.0-only
-  summary: Provide the URL checking tools available in R 4.1+ as a package for earlier versions
-    of R. Also uses concurrent requests so can be much faster than the serial versions.
+  summary: Provide the URL checking tools available in R 4.1+ as a package for earlier versions of R. Also uses concurrent requests so can be much faster than the serial versions.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
